@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+      integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n"
+      crossorigin="anonymous"
+    />
+    <title>Search From Here</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>
+          <a href="#" title="Search From Here" onclick="alert('Wecome to SFH')"
+            >SFH</a
+          >
+        </h1>
+        <p>Search From Here</p>
+      </header>
+      <main>
+        <div class="search search-1">
+          <h2 class="search-title">Amazon</h2>
+          <form action="https://www.amazon.in/s">
+            <input type="text" name="k" id="amazon-search" required />
+            <button type="submit"><span class="bi bi-search"></span></button>
+          </form>
+        </div>
+        <div class="search search-2">
+          <h2 class="search-title">Flipkart</h2>
+          <form action="https://www.flipkart.com/search">
+            <input type="text" name="q" id="flipkart-search" required />
+            <button type="submit"><span class="bi bi-search"></span></button>
+          </form>
+        </div>
+        <div class="search search-3">
+          <h2 class="search-title">Google</h2>
+          <form action="https://www.google.com/search">
+            <input type="text" name="q" id="google-search" required />
+            <button type="submit"><span class="bi bi-search"></span></button>
+          </form>
+        </div>
+        <div class="search search-4">
+          <h2 class="search-title">Youtube</h2>
+          <form action="https://www.youtube.com/results">
+            <input
+              type="text"
+              name="search_query"
+              id="youtube-search"
+              required
+            />
+            <button type="submit"><span class="bi bi-search"></span></button>
+          </form>
+        </div>
+      </main>
+      <a target="_blank" href="https://icons8.com/icon/21295/amazon" hidden
+        >Amazon icon by Icons8</a
+      >
+      <footer>
+        <p>&copy; SFH - All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
