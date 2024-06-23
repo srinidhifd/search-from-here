@@ -10,4 +10,4 @@ This project is built using **HTML** and **CSS** only. The website is completely
 3. Test the project and raise any issues or contributions you want to make
 
 ## Screenshot :
-<img src="./search-from-here.png">
+<img src="./screenshot.webp">
